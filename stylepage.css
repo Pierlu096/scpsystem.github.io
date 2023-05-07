@@ -1,15 +1,10 @@
 body {
-    background-image: url("backblur.png"); 
+    background-image: url("./images/backblur.png"); 
     background-position: center;
     background-repeat: none;
     background-size: auto;
     overflow-x: hidden;
     cursor: default;
-}
-
-html {
-    box-sizing: border-box;
-    -webkit-font-smoothing: antialiased;
 }
 
 body::-webkit-scrollbar {
@@ -383,6 +378,11 @@ body::-webkit-scrollbar-thumb {
     right: 540px;
     bottom: 550px;
 }
+
+.SCPLEAKS, .ScpLeakstab {
+    background-color: transparent;
+    border: none;
+}
   
 .scpunis::before {
     position: absolute;
@@ -480,6 +480,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .SCPLEAKS {
+    background: none;
     position: relative;
     left: 320px;
     top: 90px;
@@ -545,6 +546,7 @@ h6 {
 h2 {
     text-align: left;
 }
+
 
 @media (min-width:320px) and (max-width:350px)  {    
     .sevenrings {
@@ -1038,4 +1040,3 @@ h2 {
             text-align: center;
         }   
 }
-
