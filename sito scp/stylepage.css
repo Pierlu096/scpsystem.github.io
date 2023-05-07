@@ -1,0 +1,1042 @@
+body {
+    background-image: url("./images/backblur.png"); 
+    background-position: center;
+    background-repeat: none;
+    background-size: auto;
+    overflow-x: hidden;
+    cursor: default;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;            
+}
+  
+body::-webkit-scrollbar-track {
+    background: rgb(255, 255, 255);    
+}
+  
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(156, 156, 156);   
+    border-radius: 30px;    
+}
+
+.share {
+    position: relative;
+    background-color: rgb(0, 140, 255);
+    left: 50px;
+    bottom: 880px;
+    border-radius: 30px;
+    border: none;
+    width: 700px;
+    height: 60px;
+    font-size: 40px;
+    font-family: Nunito, sans-serif;
+    cursor: pointer;
+}
+
+.share::before {
+    position: absolute;
+    content: "";
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    left: -2px;
+    top: -2px;
+    background: linear-gradient(
+      124deg,
+      #00b5e2,
+      #006eff,
+      #e8b71d,
+      #00ffd5,
+      #1de840,
+      #1ddde8,
+      #2b1de8,
+      #ff0000,
+      #004df3
+    );
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 30px;
+}
+.tastounisciti {
+    font-family: Nunito, sans-serif;
+    font-size: 60px;
+    position: relative;
+    bottom: 200px;
+    left: -380px;
+    border-radius: 30px;
+    border: none;
+    background-color: lime;
+    cursor: pointer;
+}
+
+.tastounisciti::before {
+    position: absolute;
+    content: "";
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    left: -2px;
+    top: -2px;
+    background: linear-gradient(
+      124deg,
+      #08e200,
+      #006eff,
+      #8d1de8,
+      #00ffd5,
+      #1de840,
+      #1ddde8,
+      #1100ff,
+      #00ff9d,
+      #00f320
+    );
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 30px;
+}
+
+.tastounisciti:hover::before {
+    opacity: 1;
+}
+
+.share:hover::before {
+    opacity: 1;
+}
+
+.popup { 
+    width: 400px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.1);
+    visibility: hidden;
+    text-align: center;
+    padding: 0 0 30px;
+}
+
+.scptg {
+    position: relative;
+    left: 320px;
+}
+
+.tgpremium {
+    max-width: 900px;
+    max-height: 900px;
+    right: 80px;
+    bottom: 700px;
+    position: relative;
+}
+
+.tgshareleaks { position: relative; bottom: 600px; left: 600px;}
+
+.buttonshare {
+    position: relative;
+    bottom: 530px;
+    font-size: 40px;
+    font-family: Nunito, sans-serif;
+    background-color: rgba(255, 0, 0, 0.7);
+    border-radius: 30px;
+    color: white;
+    right: -40px;
+    max-width: 600px;
+    max-height: 600px;
+    text-align: calc(24, 02244, 2424);
+    text-decoration: none;
+    left: 130px;
+    border: none;
+    cursor: pointer;
+}
+
+.bottoneunisciti {
+    position: relative;
+    color:#000000;
+    border-radius: 30px;
+    left: 0px;
+    bottom: 0px;
+    font-size: 40px;
+    font-family: Nunito, sans-serif;
+    cursor: pointer;
+}
+
+.bottoneui::before {
+    position: absolute;
+    content: "";
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    left: -2px;
+    top: -2px;
+    background: linear-gradient(
+      124deg,
+      #00b5e2,
+      #006eff,
+      #e8b71d,
+      #00ffd5,
+      #1de840,
+      #1ddde8,
+      #2b1de8,
+      #ff0000,
+      #004df3
+    );
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 30px;
+}
+
+.bottoneui {
+    position: relative;
+    background-color: rgb(0, 140, 255);
+    left: 200px;
+    bottom: 900px;
+    border-radius: 30px;
+    border: none;
+    width: 300px;
+    height: 60px;
+}
+
+.top {
+    position: relative;
+    bottom: 800px;
+    font-size: 40px;
+    font-family: Nunito, sans-serif;
+    background-color: rgba(255, 0, 0, 0.7);
+    border-radius: 30px;
+    color: white;
+    right: -40px;
+    max-width: 800px;
+    max-height: 800px;
+    text-align: calc(24, 02244, 2424);
+    text-decoration: none;
+    left: -630px;
+    border: none;
+    cursor: pointer;
+}
+
+.diazz {
+    position: relative;
+    bottom: 800px;
+    font-size: 40px;
+    font-family: Nunito, sans-serif;
+    background-color: rgba(255, 0, 0, 0.7);
+    border-radius: 30px;
+    color: white;
+    right: -40px;
+    max-width: 800px;
+    max-height: 800px;
+    text-align: calc(24, 02244, 2424);
+    text-decoration: none;
+    left: -630px;
+    border: none;
+    cursor: pointer;
+}
+
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.buttonshare::before {
+    position: absolute;
+    content: "";
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    left: -2px;
+    top: -2px;
+    background: linear-gradient(
+      124deg,
+      #ff2400,
+      #e81d1d,
+      #e8b71d,
+      #e3e81d,
+      #1de840,
+      #1ddde8,
+      #2b1de8,
+      #dd00f3,
+      #dd00f3
+    );
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 30px;
+}
+
+.top::before {
+    position: absolute;
+    content: "";
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    left: -2px;
+    top: -2px;
+    background: linear-gradient(
+      124deg,
+      #ff2400,
+      #e81d1d,
+      #e8b71d,
+      #e3e81d,
+      #1de840,
+      #1ddde8,
+      #2b1de8,
+      #dd00f3,
+      #dd00f3
+    );
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 30px;
+}
+
+.diazz::before {
+    position: absolute;
+    content: "";
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    left: -2px;
+    top: -2px;
+    background: linear-gradient(
+      124deg,
+      #ff2400,
+      #e81d1d,
+      #e8b71d,
+      #e3e81d,
+      #1de840,
+      #1ddde8,
+      #2b1de8,
+      #dd00f3,
+      #dd00f3
+    );
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 30px;
+}
+
+.gmwrld {
+    position: relative;
+    left: 240px;
+    bottom: 300px;
+}
+
+.ds {
+    position: relative;
+    left: 790px;
+    max-block-size: 900px;
+    bottom: 120px;
+}
+
+.sevenrings {
+    background-color: rgba( 255, 255, 255, 0.9);
+    border-radius: 20px;
+    backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(10px);
+    cursor: pointer;
+    overflow: hidden;
+    height: auto;
+    width: auto;
+    box-shadow: 20px black;
+    max-height: 120px;
+    text-align-last: auto;
+}
+
+.imgscpleaks {
+    background-color: rgba( 255 255 255 0.7);
+    filter: drop-shadow(0, 0, 10 black);
+    position: relative;
+    max-width: 700px;
+    max-height: 700px;
+    max-block-size: 700px;
+    bottom: 500px;
+}
+
+.scpunis {
+    width: 300px;
+    font-size: 40px;
+    font-family: Nunito, sans-serif;
+    height: 60px;
+    border: none;
+    outline: none;
+    background: #f73434;
+    color: #fff;
+    cursor: pointer;
+    z-index: 0;
+    border-radius: 30px;
+    position: relative;
+    right: 540px;
+    bottom: 550px;
+}
+
+.SCPLEAKS, .ScpLeakstab {
+    background-color: transparent;
+    border: none;
+}
+  
+.scpunis::before {
+    position: absolute;
+    content: "";
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    left: -2px;
+    top: -2px;
+    background: linear-gradient(
+      124deg,
+      #ff2400,
+      #e81d1d,
+      #e8b71d,
+      #e3e81d,
+      #1de840,
+      #1ddde8,
+      #2b1de8,
+      #dd00f3,
+      #dd00f3
+    );
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 30px;
+}
+  
+.scpunis:hover::before {
+    opacity: 1;
+}
+
+.top:hover::before {
+    opacity: 1;
+}
+
+.diazz:hover::before {
+    opacity: 1;
+}
+
+.buttonshare:hover::before {
+    opacity: 1;
+}
+
+.bottoneui:hover::before {
+    opacity: 1;
+}
+  
+.scpunis::after {
+    z-index: -1;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ff1100;
+    left: 0;
+    top: 0;
+    border-radius: 30px;
+}
+
+.buttonshare::after {
+    z-index: -1;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ff3628;
+    left: 0;
+    top: 0;
+    border-radius: 30px;
+}
+
+.top::after {
+    z-index: -1;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ff00b3;
+    left: 0;
+    top: 0;
+    border-radius: 30px;
+}
+
+.diazz::after {
+    z-index: -1;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ff00b3;
+    left: 0;
+    top: 0;
+    border-radius: 30px;
+}
+
+.SCPLEAKS {
+    background: none;
+    position: relative;
+    left: 320px;
+    top: 90px;
+}
+
+.sevenrings:hover { transition: all 0.5s; border-radius: 13px; cursor: default;}
+.sevenrings:not(hover) {transition: all 0.3s; border-radius: 20px;}
+
+@font-face {
+    font-family: Nunito;
+    src: url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&amp;display=swap");
+}
+
+.positions {
+    font-size: 40px;
+    overflow: auto;
+    text-align: center;
+    text-shadow: none;
+    color: black;
+    background-color: rgba( 255 255 255 0.7);
+    font-family: Nunito, sans-serif;
+    position: relative;
+}
+
+h6 {
+    background-color: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    text-align: center;
+    border-radius: 10px;
+    font-size: 50px;
+    width: auto;
+    height: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, bold;
+    position: relative;
+    top: 100px;
+}
+
+.thank_u_next {
+    max-height: 120px;
+    position: relative; bottom: 110px; left: 20px;
+    max-width: 120px;
+}
+
+.makeup:not(hover) { 
+    max-width: 120px;
+    max-height: 120px;
+    position: relative; bottom: 140px; left: 1480px;
+    background: none;
+    border-radius: none;
+    max-block-size: 62px;
+    background-position: center;
+    transition: all 0.4s;
+}
+
+.breakupwithyourgirlfriendimbored:not(hover) {
+    max-width: 120px;
+    max-height: 120px;
+    position: relative; bottom: 135px; left: 40px;
+    transition: all 0.4s;
+}
+
+h2 {
+    text-align: left;
+}
+
+
+@media (min-width:320px) and (max-width:350px)  {    
+    .sevenrings {
+    background-color: rgba( 255, 255, 255, 0.9);
+    border-radius: 20px;
+    backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(10px);
+    cursor: pointer;
+    overflow: hidden;
+    height: auto;
+    width: auto;
+    position: relative;
+    right: 9px;
+    max-height: auto;
+    text-align-last: auto;
+    width: auto;
+    font-size: 20px; }
+
+    .breakupwithyourgirlfriendimbored:not(hover) {
+        position: relative;
+        max-width: 50px;
+        max-height: 50px;
+        left: 6px;
+        top: -60px;
+    }
+
+    .thank_u_next {
+        position: relative;
+        max-width: 50px;
+        max-height: 50px;
+        top: -50px;
+        position: relative;
+    }
+
+    .positions {
+        font-size: 27px;
+    }
+
+    .makeup {
+        position: relative;
+        left: 100px;
+    }
+
+    .imgscpleaks {
+        max-block-size: 150px;
+        position: relative;
+        left: 20px;
+    }
+
+    .scpunis {
+        max-block-size: 100px;
+        max-width: 150px;
+        max-height: 150px;
+        position: relative;
+        left: 70px;
+        animation: move;
+    }
+
+    .buttonshare {
+        max-block-size: 50px;
+        font-size: 20px;
+        position: relative;
+        right: 900px;
+        left: 52px;
+        animation: move;
+    }
+
+    .SCPLEAKS {
+        position: relative;
+        left: -10px;
+        top: 260px;
+    }
+
+    .tgpremium {
+        max-width: 500px; max-height: 500px;
+        position: relative;
+        left: -100px;
+    }
+
+    .colorful-button {
+        position: relative;
+        bottom: 800px;
+        left: -20px;
+    }
+
+    .colorful-button-secondary {
+        position: relative;
+        bottom: 790px;
+        max-width: 300px;
+        max-height: 400px;
+        left: -20px;
+    }
+
+    .scptg {
+        position: relative;
+        top: 260px;
+        left: -10px;
+    }
+
+    .gmwrld {
+        max-block-size: 200px;
+        position: relative;
+        top: -30px;
+        left: 50px;
+    }
+    .ds {
+        position: relative;
+        left: 30px;
+        max-width: 250px;
+        max-height: 500px;
+        top: 0px;
+    }
+
+    h6 {
+        font-size: 20px;
+        font-family: Nunito, sans-serif;
+        bottom: 400px;
+        position: relative;
+    }
+}
+
+@media (min-width:350px) and (max-width:400px)  {    
+    .sevenrings {
+    background-color: rgba( 255, 255, 255, 0.9);
+    border-radius: 20px;
+    backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(10px);
+    cursor: pointer;
+    overflow: hidden;
+    height: auto;
+    width: auto;
+    position: relative;
+    right: 9px;
+    max-height: auto;
+    text-align-last: auto;
+    width: auto;
+    font-size: 20px; }
+
+    .breakupwithyourgirlfriendimbored:not(hover) {
+        position: relative;
+        max-width: 50px;
+        max-height: 50px;
+        left: 6px;
+        top: -13px;
+    }
+
+    .thank_u_next {
+        position: relative;
+        max-width: 50px;
+        max-height: 50px;
+        top: -3px;
+        position: relative;
+    }
+
+    .positions {
+        font-size: 18px;
+        position: relative;
+        top: 20px;
+        left: -20px;
+    }
+
+    .makeup {
+        position: relative;
+        left: 100px;
+    }
+
+    .imgscpleaks {
+        max-block-size: 150px;
+        position: relative;
+        left: 20px;
+    }
+
+    .scpunis {
+        max-block-size: 100px;
+        max-width: 150px;
+        max-height: 150px;
+        position: relative;
+        left: 70px;
+        animation: move;
+    }
+
+    .buttonshare {
+        max-block-size: 50px;
+        font-size: 20px;
+        position: relative;
+        right: 900px;
+        left: 52px;
+        animation: move;
+    }
+
+    .SCPLEAKS {
+        position: relative;
+        left: -60px;
+        top: 260px;
+    }
+
+    .tgpremium {
+        max-width: 500px; max-height: 500px;
+        position: relative;
+        left: -100px;
+    }
+
+    .colorful-button {
+        position: relative;
+        bottom: 800px;
+        left: -20px;
+    }
+
+    .colorful-button-secondary {
+        position: relative;
+        bottom: 790px;
+        max-width: 300px;
+        max-height: 400px;
+        left: -20px;
+    }
+
+    .scptg {
+        position: relative;
+        top: 260px;
+        left: -60px;
+    }
+
+    .gmwrld {
+        max-block-size: 200px;
+        position: relative;
+        top: -30px;
+        left: 50px;
+    }
+    .ds {
+        position: relative;
+        left: 30px;
+        max-width: 250px;
+        max-height: 500px;
+        top: 0px;
+    }
+
+    h6 {
+        font-size: 5px;
+        font-family: Nunito, sans-serif;
+        bottom: 400px;
+        right: 10px;
+        position: relative;
+        text-align: center;
+    }
+}
+
+
+
+@media (min-width:400px) and (max-width:481)  { 
+    .sevenrings {
+        background-color: rgba( 255, 255, 255, 0.9);
+        border-radius: 20px;
+        backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(10px);
+        cursor: pointer;
+        overflow: hidden;
+        height: auto;
+        width: auto;
+        position: relative;
+        right: 9px;
+        max-height: auto;
+        text-align-last: auto;
+        width: auto;
+        font-size: 20px; }
+    
+        .breakupwithyourgirlfriendimbored:not(hover) {
+            position: relative;
+            max-width: 50px;
+            max-height: 50px;
+            left: 6px;
+            top: -13px;
+        }
+    
+        .thank_u_next {
+            position: relative;
+            max-width: 50px;
+            max-height: 50px;
+            top: -3px;
+            position: relative;
+        }
+    
+        .positions {
+            font-size: 18px;
+            position: relative;
+            top: 20px;
+            left: -20px;
+        }
+    
+        .makeup {
+            position: relative;
+            left: 100px;
+        }
+    
+        .imgscpleaks {
+            max-block-size: 150px;
+            position: relative;
+            left: 20px;
+        }
+    
+        .scpunis {
+            max-block-size: 100px;
+            max-width: 150px;
+            max-height: 150px;
+            position: relative;
+            left: 70px;
+            animation: move;
+        }
+    
+        .buttonshare {
+            max-block-size: 50px;
+            font-size: 20px;
+            position: relative;
+            right: 900px;
+            left: 52px;
+            animation: move;
+        }
+    
+        .SCPLEAKS {
+            position: relative;
+            left: -60px;
+            top: 260px;
+        }
+    
+        .tgpremium {
+            max-width: 500px; max-height: 500px;
+            position: relative;
+            left: -100px;
+        }
+    
+        .colorful-button {
+            position: relative;
+            bottom: 800px;
+            left: -20px;
+        }
+    
+        .colorful-button-secondary {
+            position: relative;
+            bottom: 790px;
+            max-width: 300px;
+            max-height: 400px;
+            left: -20px;
+        }
+    
+        .scptg {
+            position: relative;
+            top: 260px;
+            left: -60px;
+        }
+    
+        .gmwrld {
+            max-block-size: 200px;
+            position: relative;
+            top: -30px;
+            left: 50px;
+        }
+        .ds {
+            position: relative;
+            left: 30px;
+            max-width: 250px;
+            max-height: 500px;
+            top: 0px;
+        }
+    
+        h6 {
+            font-size: 5px;
+            font-family: Nunito, sans-serif;
+            bottom: 400px;
+            right: 10px;
+            position: relative;
+            text-align: center;
+        }   
+} 
+
+@media (min-width:641px) and (max-width: 650px)  {    
+    .sevenrings {
+        background-color: rgba( 255, 255, 255, 0.9);
+        border-radius: 20px;
+        backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(10px);
+        cursor: pointer;
+        overflow: hidden;
+        height: auto;
+        width: auto;
+        position: relative;
+        right: 9px;
+        max-height: auto;
+        text-align-last: auto;
+        width: auto;
+        font-size: 20px; }
+    
+        .breakupwithyourgirlfriendimbored:not(hover) {
+            position: relative;
+            max-width: 50px;
+            max-height: 50px;
+            left: 6px;
+            top: -13px;
+        }
+    
+        .thank_u_next {
+            position: relative;
+            max-width: 50px;
+            max-height: 50px;
+            top: -3px;
+            position: relative;
+        }
+    
+        .positions {
+            font-size: 18px;
+            position: relative;
+            top: 20px;
+            left: -20px;
+        }
+    
+        .makeup {
+            position: relative;
+            left: 100px;
+        }
+    
+        .imgscpleaks {
+            max-block-size: 150px;
+            position: relative;
+            left: 20px;
+        }
+    
+        .scpunis {
+            max-block-size: 100px;
+            max-width: 150px;
+            max-height: 150px;
+            position: relative;
+            left: 70px;
+            animation: move;
+        }
+    
+        .buttonshare {
+            max-block-size: 50px;
+            font-size: 20px;
+            position: relative;
+            right: 900px;
+            left: 52px;
+            animation: move;
+        }
+    
+        .SCPLEAKS {
+            position: relative;
+            left: -60px;
+            top: 260px;
+        }
+    
+        .tgpremium {
+            max-width: 500px; max-height: 500px;
+            position: relative;
+            left: -100px;
+        }
+    
+        .colorful-button {
+            position: relative;
+            bottom: 800px;
+            left: -20px;
+        }
+    
+        .colorful-button-secondary {
+            position: relative;
+            bottom: 790px;
+            max-width: 300px;
+            max-height: 400px;
+            left: -20px;
+        }
+    
+        .scptg {
+            position: relative;
+            top: 260px;
+            left: -60px;
+        }
+    
+        .gmwrld {
+            max-block-size: 200px;
+            position: relative;
+            top: -30px;
+            left: 50px;
+        }
+        .ds {
+            position: relative;
+            left: 30px;
+            max-width: 250px;
+            max-height: 500px;
+            top: 0px;
+        }
+    
+        h6 {
+            font-size: 5px;
+            font-family: Nunito, sans-serif;
+            bottom: 400px;
+            right: 10px;
+            position: relative;
+            text-align: center;
+        }   
+}
